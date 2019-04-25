@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>jasper reports</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Static navbar -->
+<nav class="navbar navbar-default" id="navbar-default">
+   
+        <div class="navbar-header">
+           
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><font style="color:white; font-size:30px;">Jasper Reports</font></a>
+        </div>
+        
+        <div id="navbar" class="navbar-collapse collapse">
+           
+        <!--/.nav-collapse -->
+</nav>
+<div class="container">
+    <div class="panel panel-default">
+        <div class="pull-right"><a href="index.html">logout &nbsp<span class="glyphicon glyphicon-off"></span></a></div>
+        <div class="panel-heading">REports</div>
+        
+        <div class="panel-body">
+            <form action="">
+                <div class="row">
+                        <div class="form-group col-md-4">
+                            <select class="form-control form-control-lg" id="inputreport">
+                                <option selected>Choose Report...</option>
+                                <option>...</option>
+                            </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" value="">Department
+                        </label>
+                        <label class="checkbox-inline">
+                            <input type="checkbox" value="">Branch
+                        </label>
+                        <label class="checkbox-inline">
+                            <input type="checkbox" value="">User
+                        </label>
+                        &nbsp &nbsp
+                        <button type="button" class="btn btn-primary">Generate</button>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+
+            </form>
+            
+        </div>
+    </div>
+    <div class="contentdiv">
+    <button class="collapsible"><span class="glyphicon glyphicon-menu-down"></span> Open Reports</button>
+    <div class="content">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">report one</li>
+            <li class="list-group-item">report two</li>
+            <li class="list-group-item">report three</li>
+            <li class="list-group-item">report four</li>
+            <li class="list-group-item">report six</li>
+        </ul>
+    </div>
+    </div>
+
+</div>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
